@@ -47,7 +47,7 @@ def cal_min_edit_distance(str1, str2):
 
     return distance_table
 
-def main():
+def test():
     str1 = "execution"
     str2 = "intention"
     distance_table = cal_min_edit_distance(str1, str2)
@@ -56,4 +56,4 @@ def main():
     print_distance_table(str1, str2, distance_table) 
 
 if __name__ == "__main__":
-    main()
+    test()
